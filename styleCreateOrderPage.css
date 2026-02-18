@@ -1,0 +1,129 @@
+.createOrderForm {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  padding: 30px;
+  gap: 40px;
+}
+/* GRID ONE */
+.gridOne {
+  background-color: #242a47;
+  border-radius: 15px;
+  padding: 20px;
+}
+/* FORM CUSTOMIZATION */
+.formSection label {
+  display: block;
+  margin-bottom: 7px;
+  font-size: 16px;
+}
+.formSection input {
+  width: 100%;
+  padding: 8px 12px;
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background-color: #1b2030;
+  color: #f0f0db;
+  margin-bottom: 20px;
+}
+.foodGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+/* Food card */
+.foodCard {
+    background: #273F4F;
+    border-radius: 12px;
+    padding: 15px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.foodCard:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 15px rgba(0,0,0,0.2);
+}
+/* Food info */
+.foodInformation h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+.foodInformation span {
+    font-size: 14px;
+    color: #cfd8dc;
+}
+.quantityControl {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 12px;
+}
+.quantityControl button {
+    padding: 5px 12px;
+    font-size: 16px;
+    background-color: #161a2b;
+    color: #F0F0DB;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+.quantityControl button:hover {
+    background-color: #FF6B00;
+    color: #161a2b;
+}
+.quantityControl .qty {
+    font-size: 16px;
+    width: 20px;
+    text-align: center;
+}
+/* Create order button */
+.createBtn {
+    margin-top: 20px;
+    width: 100%;
+    padding: 12px 0;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #FF6B00;
+    color: #161a2b;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.createBtn:hover {
+    background-color:#161a2b ;
+    color: #FF6B00;
+}
+.gridTwo {
+    background-color: #161a2b;
+    border-radius: 12px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.selectedItems h2 {
+    margin-bottom: 15px;
+}
+.itemsList {
+    flex: 1;
+    background-color: #1b2030;
+    border-radius: 12px;
+    padding: 10px;
+    overflow-y: auto;
+    min-height: 200px;
+}
+.itemsList p.emptyMsg {
+    color: #888;
+    text-align: center;
+    margin-top: 80px;
+}
+.totalSection {
+    font-size: 18px;
+    font-weight: 600;
+    text-align: right;
+    margin-top: 10px;
+}
+.qty{
+  color: #FF6B00;
+}
