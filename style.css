@@ -1,0 +1,67 @@
+/* ROOTING CSS  */
+:root{
+    
+}
+/* RESETTING THE DEFAULT CONFIGS */
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+/* BODY FORMATTING */
+body{
+    background-color: #30364F;
+    color: #F0F0DB;
+    font-family: Lexend Deca;
+}
+
+/* NAVIGATION BAR */
+.navigationBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 3%;
+  color: #F0F0DB;
+}
+
+.logo {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.navLinks {
+  display: flex;
+  list-style: none;
+  gap: 10px;
+}
+
+.navLinks a {
+  text-decoration: none;
+  color: #E1D9BC;
+  font-weight: 500;
+  transition: 0.4s ease;
+  border-radius: 75px;
+  padding: 8px 10px;
+}
+
+.navLinks a:hover {
+  color:#30364F;
+  background-color: #E1D9BC;
+}
+
+footer{
+    display: flex;
+    position: absolute;
+    bottom: 1px;
+    left: 1px;
+}
+
+/* RESPONSIVE MEDIA QUERIES */
+@media (max-width: 900px){
+    .masterGrid{
+        grid-template-columns: 1fr;
+    }
+    .analytics{
+        margin: 0;
+    }
+}
