@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- BASIC CONFIGURATIONS -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard | KimiEATS</title>
+    <!-- CSS LINKING -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- IMPORTING GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Anton&family=Barriecito&family=Cormorant:ital,wght@0,300..700;1,300..700&family=DynaPuff:wght@400..700&family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Great+Vibes&family=Gwendolyn:wght@400;700&family=Julius+Sans+One&family=Lexend+Deca:wght@440&family=Oswald:wght@200..700&family=Schoolbell&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&family=TikTok+Sans:opsz,wght@12..36,300..900&display=swap" rel="stylesheet"/>
+  </head>
+  <body>
+    <!-- NAVIGATION BAR -->
+    <header>
+      <nav class="navigationBar">
+        <div class="navigationLogo">
+          <h1 class="logo">KimiEATS</h1>
+        </div>
+        <ul class="navLinks">
+          <li><a href="index.html">Dashboard</a></li>
+          <li><a href="createOrder.html">Create Order</a></li>
+          <li><a href="orders.html">View Orders</a></li>
+          <li><a href="contactUs.html">Contact</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!-- DASHBOARD HOMEPAGE -->
+    <main class="masterGrid">
+      <!-- GRID ONE -->
+      <div class="gridOne">
+        <div class="mainContent">
+          <h1 class="gridTitle">Welcome Back to KimiEATS DashBoard</h1>
+          <p class="gridContent">
+            Manage your orders and deliveries efficiently.
+          </p>
+        </div>
+      </div>
+      <!-- GRID TWO -->
+      <div class="gridTwo">
+        <!-- ANALYTICS -->
+        <div class="analytics">
+          <div class="summaryCards">
+            <h1 class="cardTitle">Total Orders</h1>
+            <p id="totalOrderCount" class="cardDesc">0</p>
+          </div>
+          <div class="summaryCards">
+            <h1 class="cardTitle">Pending Orders</h1>
+            <p id="pendingOrderCount" class="cardDesc">0</p>
+          </div>
+          <div class="summaryCards">
+            <h1 class="cardTitle">Completed Orders</h1>
+            <p id="completedOrderCount" class="cardDesc">0</p>
+          </div>
+          <div class="summaryCards">
+            <h1 class="cardTitle">Total Revenue</h1>
+            <p id="totalRevenueCount" class="cardDesc">0</p>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!-- FOOTER -->
+    <footer>
+      <p>&copy; 2026 KimiEATS. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
