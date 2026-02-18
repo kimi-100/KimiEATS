@@ -10,7 +10,7 @@
 }
 /* BODY FORMATTING */
 body{
-    background-color: #30364F;
+    background-color: #191919;
     color: #F0F0DB;
     font-family: Lexend Deca;
 }
@@ -32,7 +32,7 @@ body{
 .navLinks {
   display: flex;
   list-style: none;
-  gap: 10px;
+  gap: 20px;
 }
 
 .navLinks a {
