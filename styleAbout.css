@@ -1,0 +1,103 @@
+/* ABOUT PAGE CONTAINER */
+.aboutContainer {
+  max-width: 1100px;
+  margin: 50px auto;
+  padding: 0 20px;
+  font-family: 'Lexend Deca', sans-serif;
+}
+
+/* HERO */
+.heroAbout {
+  text-align: center;
+  padding: 50px 20px;
+  background: linear-gradient(135deg, #242a47, #FF6B00);
+  color: #fff;
+  border-radius: 20px;
+  margin-bottom: 40px;
+}
+
+.heroAbout h1 {
+  font-family: 'Amatic SC', cursive;
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.heroAbout p {
+  font-size: 1.3rem;
+  font-style: italic;
+}
+
+/* STORY & MISSION SECTIONS */
+.aboutStory, .aboutMission {
+  background-color: #273F4F;
+  color: #acbac4;
+  border-radius: 16px;
+  padding: 30px;
+  margin-bottom: 30px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+  text-align: center;
+}
+
+.aboutStory h2, .aboutMission h2 {
+  color: #FF6B00;
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+
+/* TEAM SECTION */
+.aboutTeam h2 {
+  text-align: center;
+  color: #FF6B00;
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+
+.teamCards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.teamCard {
+  background-color: #394263;
+  border-radius: 20px;
+  padding: 20px;
+  text-align: center;
+  width: 220px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.teamCard:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 30px rgba(0,0,0,0.3);
+}
+
+.teamCard img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+
+.teamCard h3 {
+  color: #FF6B00;
+  font-size: 1.2rem;
+  margin-bottom: 5px;
+}
+
+.teamCard p {
+  color: #acbac4;
+  font-size: 1rem;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 30px;
+  background-color: #242a47;
+  color: #acbac4;
+  margin-top: 50px;
+  font-size: 0.9rem;
+}

@@ -1,17 +1,17 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-   <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>About | KimiEATS</title>
-    <!-- CSS LINKING -->
-    <link rel="stylesheet" href="style.css" />
-    <!-- IMPORTING GOOGLE FONTS -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Anton&family=Barriecito&family=Cormorant:ital,wght@0,300..700;1,300..700&family=DynaPuff:wght@400..700&family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Great+Vibes&family=Gwendolyn:wght@400;700&family=Julius+Sans+One&family=Lexend+Deca:wght@440&family=Oswald:wght@200..700&family=Schoolbell&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&family=TikTok+Sans:opsz,wght@12..36,300..900&display=swap" rel="stylesheet"/>
-  </head>
-  <body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us | KimiEATS</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="styleAbout.css">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Lexend+Deca&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- NAVIGATION BAR -->
+  <header>
     <nav class="navigationBar">
       <div class="navigationLogo">
         <h1 class="logo">KimiEATS</h1>
@@ -21,8 +21,51 @@
         <li><a href="createOrder.html">Create Order</a></li>
         <li><a href="orders.html">View Orders</a></li>
         <li><a href="contactUs.html">Contact</a></li>
-        <li><a href="about.html">About</a></li>
+        <li><a href="about.html" class="activeLink">About</a></li>
       </ul>
     </nav>
-  </body>
+  </header>
+
+  <main class="aboutContainer">
+    <!-- HERO SECTION -->
+    <section class="heroAbout">
+      <h1>Welcome to KimiEATS 🍴</h1>
+      <p>Where every meal tells a story and every flavor sparks joy.</p>
+    </section>
+
+    <!-- STORY SECTION -->
+    <section class="aboutStory">
+      <h2>Our Story</h2>
+      <p>It all began in a tiny kitchen with big dreams and a love for food. KimiEATS started as a simple idea: to make meals that don’t just fill your stomach, but also make your heart happy. From sizzling burgers to perfect chapatis, every dish is crafted with passion, care, and a sprinkle of magic.</p>
+    </section>
+
+    <!-- MISSION SECTION -->
+    <section class="aboutMission">
+      <h2>Our Mission</h2>
+      <p>Our mission is simple: bring joy to every plate. Fresh ingredients, bold flavors, and smiles included. We’re here to make your food experience as exciting as it is delicious.</p>
+    </section>
+
+    <!-- TEAM SECTION -->
+    <section class="aboutTeam">
+      <h2>Meet the Team</h2>
+      <div class="teamCards">
+        <div class="teamCard">
+          <img src="chef.jpg" alt="Chef Kimi">
+          <h3>Victor Kimitei</h3>
+          <p>Flavor Architect</p>
+        </div>
+        <div class="teamCard">
+          <img src="sam.jpg" alt="Food Stylist">
+          <h3>Khalid Abdi</h3>
+          <p>Plating Perfectionist</p>
+        </div>
+        <div class="teamCard">
+          <img src="alex.jpg" alt="Delivery Hero">
+          <h3>Majembe</h3>
+          <p>Hatueki Mawe Hapa</p>
+        </div>
+      </div>
+    </section>
+  </main> 
+</body>
 </html>
