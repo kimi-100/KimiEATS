@@ -10,6 +10,7 @@
 }
 /* BODY FORMATTING */
 body{
+  overflow-y: scroll;
     background-color: #191919;
     color: #F0F0DB;
     font-family: Lexend Deca;
